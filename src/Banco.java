@@ -13,7 +13,8 @@ public class Banco implements IBanco {
 
 	private SessionFactory sessionFactory;
 
-	private Session sessao;
+	private Session 
+	sessao;
 
 	private Transaction transacao;
 

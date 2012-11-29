@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop-3.1.xsd">
+	
+	<bean id="ciranda" class="CirandaCirandinha" />
+	
+	<bean id="atireiopau" class="AtireiOPauNoGato" />
+	
+	<bean id="gaita" class="Gaita" />
+	
+	<bean id="piano" class="Piano" />
+	
+	<bean id="carlos" class="CantorTocador">
+		<property name="musica" ref="ciranda" />
+		<property name="instrumento" ref="piano" />
+		<property name="instrumento2" ref="gaita"/>
+	</bean>
+	
+	<bean id="jose" class="CantorTocador">
+		<property name="instrumento2" ref="piano"/>
+		<property name="musica" ref="atireiopau"  />
+		<property name="instrumento" ref="gaita"/>
+	
+	</bean>
+	
+	<!-- platéia -->
+    <bean class="Plateia" />
+    <aop:aspectj-autoproxy />
+</beans>

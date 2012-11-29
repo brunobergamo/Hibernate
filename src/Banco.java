@@ -11,7 +11,8 @@ import org.hibernate.criterion.Restrictions;
 
 public class Banco implements IBanco {
 
-	private SessionFactory sessionFactory;
+	private SessionFactory 
+	sessionFactory;
 
 	private Session sessao;
 

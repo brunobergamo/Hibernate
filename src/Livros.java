@@ -2,16 +2,15 @@
 import java.io.Serializable;
 
 import javax.persistence.Column;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.SequenceGenerator;
+
+import org.hibernate.annotations.GenericGenerator;
 
 
 @Entity
-//@SequenceGenerator(name = "LIVROS_SEQ", sequenceName= "LIVROS_SEQ",allocationSize = 1)
+@GenericGenerator(name = "LIVROS_SEQ", strategy = "increment")
 public class Livros implements Serializable {
 
 	
@@ -25,6 +24,7 @@ public class Livros implements Serializable {
 
 	@Id
 //	@GeneratedValue(strategy = GenerationType.IDENTITY,generator = "LIVROS_SEQ")
+	@GeneratedValue(generator = "LIVROS_SEQ")
 	@Column(name = "id")
 	private int id;
 	

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="outros/Main.java" kind="src" path="src">
+		<attributes>
+			<attribute name="ignore_optional_problems" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/lib/spring-3.2.0.M2-dist/spring-3.2.0.M2/libs/spring-aspects-3.2.0.M2.jar"/>
+	<classpathentry kind="lib" path="C:/lib/spring-3.2.0.M2-dist/spring-3.2.0.M2/libs/spring-beans-3.2.0.M2.jar"/>
+	<classpathentry kind="lib" path="C:/lib/spring-3.2.0.M2-dist/spring-3.2.0.M2/libs/spring-context-3.2.0.M2.jar"/>
+	<classpathentry kind="lib" path="C:/lib/spring-3.2.0.M2-dist/spring-3.2.0.M2/libs/spring-context-support-3.2.0.M2.jar"/>
+	<classpathentry kind="lib" path="C:/lib/spring-3.2.0.M2-dist/spring-3.2.0.M2/libs/spring-core-3.2.0.M2.jar"/>
+	<classpathentry kind="lib" path="C:/lib/spring-3.2.0.M2-dist/spring-3.2.0.M2/libs/spring-expression-3.2.0.M2.jar"/>
+	<classpathentry kind="lib" path="C:/lib/spring-3.2.0.M2-dist/spring-3.2.0.M2/libs/spring-jdbc-3.2.0.M2.jar"/>
+	<classpathentry kind="lib" path="C:/hibernate-release-4.1.7.Final/lib/jpa/hibernate-entitymanager-4.1.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/hibernate-release-4.1.7.Final/lib/required/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/hibernate-release-4.1.7.Final/lib/required/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/hibernate-release-4.1.7.Final/lib/required/hibernate-commons-annotations-4.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/hibernate-release-4.1.7.Final/lib/required/hibernate-core-4.1.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/hibernate-release-4.1.7.Final/lib/required/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/hibernate-release-4.1.7.Final/lib/required/javassist-3.15.0-GA.jar"/>
+	<classpathentry kind="lib" path="C:/hibernate-release-4.1.7.Final/lib/required/jboss-logging-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/hibernate-release-4.1.7.Final/lib/required/jboss-transaction-api_1.1_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="C:/lib/commons-logging-1.1.1/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/aspectj1.7/lib/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="C:/lib/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/lib/slf4j-1.7.2/integration/lib/slf4j-api-1.6.99.jar"/>
+	<classpathentry kind="lib" path="C:/lib/slf4j-1.7.2/integration/lib/slf4j-simple-1.6.99.jar"/>
+	<classpathentry kind="con" path="DERBY_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/lib/spring-3.2.0.M1/libs/spring-orm-3.2.0.M1.jar"/>
+	<classpathentry kind="lib" path="C:/lib/spring-3.2.0.M1/libs/spring-jdbc-3.2.0.M1.jar"/>
+	<classpathentry kind="lib" path="C:/lib/spring-3.2.0.M2-dist/spring-3.2.0.M2/libs/spring-tx-3.2.0.M2.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

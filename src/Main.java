@@ -19,8 +19,7 @@ public class Main {
 		Livros livro2 = new Livros();
 		livro2.setTitulo("Hibernate Avançado");
 		System.out.println("Objetos Livro inicializados");
-		livro1.setid(0);
-		livro2.setid(1);
+
 		livro1 = banco.InserirLivro(livro1);
 		livro2 = banco.InserirLivro(livro2);
 
